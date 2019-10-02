@@ -1,0 +1,32 @@
+{
+  "name": "noauth",
+  "version": "1.0.0",
+  "description": "See the following examples",
+  "main": "express.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.15",
+    "lodash.set": "^4.3.2",
+    "nanoid": "^2.1.1",
+    "oidc-provider": "file:../node-oidc-provider"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starsy/noauth.git"
+  },
+  "keywords": [
+    "OAuth"
+  ],
+  "author": "starsy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starsy/noauth/issues"
+  },
+  "homepage": "https://github.com/starsy/noauth#readme"
+}
